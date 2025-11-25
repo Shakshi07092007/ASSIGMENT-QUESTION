@@ -1,0 +1,16 @@
+#include<stdio.h>
+int fact(int n){
+   int i,factorial=1;
+}
+   return factorial;
+}
+int main(){
+   int num;
+  printf("enter a non -negative number:");
+  scanf("%d",&num);
+  if(num<0){
+   printf("factorial is not define for negative number\n");
+}else{
+   int result=fac(num);
+printf("factorial of%d id%d \n",num,result);
+return 0;
